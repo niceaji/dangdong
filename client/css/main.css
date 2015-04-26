@@ -1,0 +1,26 @@
+
+body {
+    padding-top: 80px;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+.members-list .nick {
+    padding-left: 10px;
+}
+.count-button .count {
+    display: block;
+    padding: 0 4px;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+
+.count-button {
+    width: 40px;
+    padding-top: 7px;
+}
+
+.page-header {
+    margin-top: 0;
+}
+

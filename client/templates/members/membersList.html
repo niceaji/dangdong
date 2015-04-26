@@ -1,0 +1,14 @@
+<template name="membersList">
+  <ul class="list-group members-list">
+  {{#each members}}
+    <li class="list-group-item">
+      <button class="btn btn-default btn-xs count-button"
+              data-id="{{ _id }}" data-nick="{{ nick }}">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+        <span class="count">{{ winCount }}</span>
+      </button>
+      <a href="/{{ nick }}" class="nick">{{ nick }}</a>
+    </li>
+  {{/each}}
+  </ul>
+</template>

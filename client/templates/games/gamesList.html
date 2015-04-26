@@ -1,0 +1,22 @@
+<template name="gamesList">
+
+  <table class="table table-condensed">
+    <thead>
+    <tr>
+      <th>승자</th>
+      <th>패자</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each games}}
+    <tr class="{{#if isOwner}} warning {{/if}}">
+      <td><a href="/{{ winnerNick }}">{{ winnerNick }}</a></td>
+      <td><a href="/{{ loserNick }}">{{ loserNick }}</a></td>
+      <td>{{ formatDate created }}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+  </table>
+
+</template>
