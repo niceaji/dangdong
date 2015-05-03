@@ -11,3 +11,4 @@ accounts-password
 ian:accounts-ui-bootstrap-3
 iron:router
 momentjs:moment
+arkham:comments-ui

@@ -14,3 +14,16 @@ window.getNick = function (email) {
 };
 
 
+Comments.ui.config({
+  template: 'bootstrap'
+});
+Comments.ui.setContent({
+  title: '댓글',
+  save: '저장',
+  reply: '답글',
+  edit: '수정',
+  'placeholder-textarea': '댓글을 달아주세요',
+  'add-button-reply': '답글 추가',
+  'add-button': '추가',
+  'load-more': '댓글 로딩'
+});
